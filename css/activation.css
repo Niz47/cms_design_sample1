@@ -1,0 +1,32 @@
+#activation {
+	background: #fd0a0a;
+	color: #fff;
+}
+
+ #activation .activation-info {
+	padding: 50px 10px 10px;
+} 
+
+ #activation .activation-info h2 {
+	font-weight: bold;
+	padding-bottom: 20px;
+} 
+
+#activation .activation-info p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	padding-bottom: 10px;
+}
+
+#activation .activation-img {
+	padding: 25px 0 25px;
+}
+
+/* @media only screen  and (min-width : 1224px) {
+} */
+@media only screen and (min-device-width : 990px) and (max-device-width : 1224px) {
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 990px) {
+}
+@media only screen and (min-device-width : 445px) and (max-device-width : 990px) {
+}

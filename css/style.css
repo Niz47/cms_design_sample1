@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #767676;
+}
+
+.red-text {
+	color: #ff0c0c;
+}
+
+img {
+	width: 100%;
+}
