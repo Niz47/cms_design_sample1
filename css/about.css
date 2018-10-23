@@ -1,21 +1,12 @@
 #about {
 	background: #ededed;
 	padding-top: 100px;
+	padding-bottom: 50px;
 }
-
-/* #about img {
-	width: 100%;
-} */
 
 #about .about-info {
 	padding-top: 120px;
 	padding-left: 20px;
-}
-
-#about .about-info p {
-	font-size: 1.2em;
-	line-height: 1.6em;
-	padding-bottom: 10px;
 }
 
 /* @media only screen  and (min-width : 1224px) {
