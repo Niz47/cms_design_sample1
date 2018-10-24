@@ -1,13 +1,13 @@
-#registration, #e-kyc {
-	background: #ededed;
+#benefits {
+	background: #fd0a0a;
+	color: #fff;
 }
 
- #registration .registration-info {
-	padding: 20px 10px;
+ #benefits .benefits-info {
+ 	background: #d90000;
 } 
 
-#registration .registration-img {
-	padding: 25px 0 25px;
+#benefits .benefits-img {
 }
 
 /* @media only screen  and (min-width : 1224px) {

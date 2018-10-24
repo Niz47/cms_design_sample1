@@ -25,3 +25,15 @@ p {
 	line-height: 1.6em;
 	padding: 5px 0;
 }
+
+.light-shadow {
+	-moz-box-shadow: 0 3px 10px #bcbcbc;
+	-webkit-box-shadow: 0 3px 10px #bcbcbc;
+	box-shadow: 0 3px 10px #bcbcbc;
+}
+
+.dark-shadow {
+	-moz-box-shadow: 0 3px 10px #bcbcbc;
+	-webkit-box-shadow: 0 3px 10px #bcbcbc;
+	box-shadow: 0 3px 10px #bcbcbc;
+}
