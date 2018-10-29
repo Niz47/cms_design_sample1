@@ -1,0 +1,38 @@
+.footer {
+	margin: auto;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.footer .googleplay {
+	width: 100px;
+}
+
+.footer .appstore {
+	width: 85px;
+	margin-left: -15px;
+}
+
+.footer .app {
+	background: #000;
+	border-radius: 7px;
+	margin-top: 15px;
+}
+
+.footer .app .download-txt {
+    margin-top: 18px;
+    padding-left: 10px;
+}
+
+.footer .icon {
+	margin-top: 30px;
+}
+
+.footer .icon > li {
+	padding-left: 10px;
+}
+
+.changelang {
+	width: 70%;
+	padding: 0;
+}

@@ -1,12 +1,7 @@
-/* .navbar {
-	 margin: 40px 90px 40px 90px;
-	background-color: #fcfcfc;
-	border-radius: 7px; 
-} */
-
 .header-box {
 	margin: 40px 90px 40px 90px;
-	background-color: #fcfcfc;
+	/*background-color: #fcfcfc;*/
+	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 8px;
 	box-shadow: 0 1px 5px rgba(0,0,0,0.15);
 	padding: 5px 15px;
