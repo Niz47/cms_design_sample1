@@ -1,6 +1,5 @@
 .header-box {
 	margin: 40px 90px 40px 90px;
-	/*background-color: #fcfcfc;*/
 	background-color: rgba(255, 255, 255, 0.9);
 	border-radius: 8px;
 	box-shadow: 0 1px 5px rgba(0,0,0,0.15);
@@ -23,17 +22,15 @@
 	display: none;
 }
 
-.navbar-nav > li > a {
-    color: #717171;
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+background-color: transparent;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:hover {
-	background: transparent;
-    color: #ff0c0c;
-    text-decoration: underline;
-    /* padding-bottom: 10px;
-      border-bottom: 1px solid pink;
-      line-height: 48px; */
+.custom-navbar .nav li a:hover, .custom-navbar .nav li.active > a {
+background: transparent;
+color: #ff0c0c;
+text-decoration: underline;
 }
 
 @media only screen and (min-device-width : 990px) and (max-device-width : 1224px) {
@@ -71,10 +68,6 @@
 	}
 
 	.mobile-navbar-right>li {
-		/*display: block;*/
-		/* padding: 0;
-		margin: 0; */
-		/*float: left;*/
 		display: inline-table;
 		margin-left: 0;
 	}
@@ -83,13 +76,11 @@
 		width: 80px;
 		height: auto;
 		margin: -20px 0;
-		/*margin: -20px 20px;*/
 	}
 
 	.visa-logo {
 		width: 90px;
 		height: auto;
-		/*padding: 10px;*/
 	}
 	.navbar-collapse.in {
 		overflow-y: visible;
@@ -103,17 +94,6 @@
 	.navbar-collapse ul>li {
 		display: inline;
 	}
-
-	/* .in {
-		display: inline-block;
-		text-align: center;
-	} */
-
-	/* .mobile-navbar-right img {
-		display: inline-block;
-		float: right;
-		width: 50px;
-	} */
 }
 @media only screen and (min-device-width : 445px) and (max-device-width : 720px) {
 	.mobile-navbar-right {
