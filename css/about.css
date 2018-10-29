@@ -1,11 +1,15 @@
 #about {
 	background: #ededed;
-	padding-top: 100px;
+	padding-top: 80px;
 	padding-bottom: 50px;
 }
 
+#about .about-img {
+	width: 90%;
+}
+
 #about .about-info {
-	padding-top: 120px;
+	padding-top: 90px;
 	padding-left: 20px;
 }
 
